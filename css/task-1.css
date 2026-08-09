@@ -1,0 +1,32 @@
+#categories {
+  border-radius: 8px;
+  padding: 24px;
+  width: 440px;
+  background-color: #ffffff;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  background: #f6f6fe;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.item__header {
+  font-size: 24px;
+  line-height: 1.33;
+  margin-bottom: 16px;
+}
+
+.item li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.item li:not(:last-child) {
+  margin-bottom: 8px;
+}
