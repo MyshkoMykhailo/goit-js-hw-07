@@ -44,3 +44,15 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  padding: 8px 16px;
+  color: inherit;
+}
+
+.input::placeholder {
+  color: inherit;
+}
