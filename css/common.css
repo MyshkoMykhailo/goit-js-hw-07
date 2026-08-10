@@ -1,5 +1,6 @@
 @import "./task-1.css";
 @import "./task-2.css";
+@import "./task-4.css";
 
 :root {
   --font-family: "Montserrat", sans-serif;
@@ -43,6 +44,15 @@ ol {
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  border: none;
+  width: auto;
+  font-family: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
 }
 
 .input {
